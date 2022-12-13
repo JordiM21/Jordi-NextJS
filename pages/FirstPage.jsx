@@ -50,9 +50,24 @@ const FirstPage = ({ darkMode }) => {
 				</div>
 			</div>
 			<div className="text-5xl flex align-middle justify-center gap-10 py-3 text-gray-600">
-				<BsLinkedin className="hover:text-teal-900 dark:hover:text-white cursor-pointer hover:scale-110 transition ease-in duration-100" />
-				<BsGithub className="hover:text-teal-900 dark:hover:text-white cursor-pointer hover:scale-110 transition ease-in duration-100" />
-				<AiFillMail className="hover:text-teal-900 dark:hover:text-white cursor-pointer hover:scale-110 transition ease-in duration-100" />
+				<a
+					href="https://www.linkedin.com/in/jordi-mantilla21/"
+					target="blank"
+				>
+					<BsLinkedin className="hover:text-teal-900 dark:hover:text-white cursor-pointer hover:scale-110 transition ease-in duration-100" />
+				</a>
+				<a
+					href="https://github.com/JordiM21"
+					target="blank"
+				>
+					<BsGithub className="hover:text-teal-900 dark:hover:text-white cursor-pointer hover:scale-110 transition ease-in duration-100" />
+				</a>
+				<a
+					href="mailto:jordimantilla21@gmail.com"
+					target="blank"
+				>
+					<AiFillMail className="hover:text-teal-900 dark:hover:text-white cursor-pointer hover:scale-110 transition ease-in duration-100" />
+				</a>
 			</div>
 			<div className="border-solid border-b-2 border-b-teal-500 dark:border-b-teal-400 mx-auto bg-gradient-to-b  from-teal-500 dark:from-teal-400 rounded-full w-80 h-80 mt-20 overflow-hidden md:h-120 md:w-120">
 				<Image

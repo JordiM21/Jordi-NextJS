@@ -9,22 +9,32 @@ const About = () => {
 		<div className="px-10 md:px-20 lg:px-40 mt-20">
 			<div>
 				<h3 className="text-3xl py-1 dark:text-white">
-					Services i offer
+					About what i'm good at
 				</h3>
 				<p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-400">
-					Since the beginning of my journey as a
-					freelancer developer, I've done remote
-					work for agencies consulted for{" "}
+					Since the beginning of my journey as a{" "}
 					<span className="text-teal-500">
-						startups
-					</span>{" "}
-					and collaborated with talented people to
-					create amazing diigtal products for both
-					business and consumer use
+						freelancer developer
+					</span>
+					, I've been studying hard and working on
+					some interesting projects with talented
+					people on creating amazing digital
+					products for both business and consumer
+					use such as in BackEnd as in Front-End{" "}
+					<span className="text-teal-500">
+						'most of the time both'
+					</span>
+					, i really enjoy working on both sides
+					of the development and being able to
+					make them to work together. I love being{" "}
+					<span>always learning</span> and never
+					stop creating.{" "}
 				</p>
 				<p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-400">
-					I offer from a wide range of services,
-					including programming and teaching
+					I am goog at software development as a
+					Full-Stack developer but i am also good
+					at designing and creating visual
+					content.
 				</p>
 			</div>
 			<div className=" lg:flex gap-10">

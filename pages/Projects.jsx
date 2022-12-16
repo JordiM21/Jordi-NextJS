@@ -66,11 +66,21 @@ const Projects = () => {
 				<div className="basis-1/3 flex-1 relative z-0">
 					<div className="flex absolute min-w-full z-10">
 						<div className="transition ease-in cursor-pointer dark:hover:bg-gray-900 flex justify-center text-white bg-teal-700 hover:bg-white hover:text-teal-700 w-1/2 h-8  place-items-center dark:bg-white dark:text-gray-900 dark:hover:text-white">
-							<a>Go to Repo</a>
+							<a
+								href="https://github.com/JordiM21/NextJS-Rick-Morty"
+								target="blank"
+							>
+								Go to Repo
+							</a>
 							<FaExternalLinkAlt className="ml-2" />
 						</div>
 						<div className="transition ease-in cursor-pointer dark:hover:bg-gray-900 flex justify-center text-white bg-teal-700 hover:bg-white hover:text-teal-700 w-1/2 h-8  place-items-center dark:bg-white dark:text-gray-900 dark:hover:text-white">
-							<a>Go to Live</a>
+							<a
+								href="https://rickmorty-nextjs.vercel.app"
+								target="blank"
+							>
+								Go to Live
+							</a>
 							<FaExternalLinkAlt className="ml-2" />
 						</div>
 					</div>

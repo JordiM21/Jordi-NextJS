@@ -24,7 +24,7 @@ const FirstPage = ({ darkMode }) => {
 					<h3 className="text-2xl py-2 md:text-4xl dark:text-white">
 						Software Developer
 					</h3>
-					<p className=" text-xl py-5 leading-7 text-gray-600 dark:text-gray-400 md:text-xl max-w-lg mx-auto">
+					<p className=" cursor-pointer text-xl py-5 leading-7 text-gray-600 dark:text-gray-400 md:text-xl max-w-lg mx-auto">
 						<span className="underline decoration-yellow-300 group-hover:bg-yellow-300 transition ease-in  cursor-pointer dark:group-hover:text-black rounded-l-md">
 							Colom
 						</span>

@@ -30,7 +30,7 @@ const Projects = () => {
 					<div className="flex absolute min-w-full z-10">
 						<div className="transition ease-in cursor-pointer dark:hover:bg-gray-900 flex justify-center text-white bg-teal-700 hover:bg-white hover:text-teal-700 w-1/2 h-8  place-items-center dark:bg-white dark:text-gray-900 dark:hover:text-white">
 							<a
-								href="https://github.com/JordiM21/react-ecommerce"
+								href="https://github.com/JordiM21/Amason"
 								target="blank"
 							>
 								Go to Repo
@@ -39,7 +39,7 @@ const Projects = () => {
 						</div>
 						<div className="transition ease-in cursor-pointer dark:hover:bg-gray-900 flex justify-center text-white bg-teal-700 hover:bg-white hover:text-teal-700 w-1/2 h-8  place-items-center dark:bg-white dark:text-gray-900 dark:hover:text-white">
 							<a
-								href="https://react-ecommerce-jordi.netlify.app"
+								href="https://amason.vercel.app"
 								target="blank"
 							>
 								Go to Live
@@ -50,7 +50,7 @@ const Projects = () => {
 					<div className="overflow-hidden">
 						<Image
 							alt="ecommerce"
-							className="rounded-lg object-cover hover:scale-110 hover: transition ease-in cursor-pointer h-64"
+							className="rounded-lg object-contain hover:scale-110 hover: transition ease-in cursor-pointer h-64"
 							src={ecommercePage}
 						/>
 					</div>

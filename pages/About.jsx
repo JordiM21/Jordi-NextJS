@@ -31,7 +31,7 @@ const About = () => {
 					stop creating.{" "}
 				</p>
 				<p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-400">
-					I am goog at software development as a
+					I am good at software development as a
 					Full-Stack developer but i am also good
 					at designing and creating visual
 					content.

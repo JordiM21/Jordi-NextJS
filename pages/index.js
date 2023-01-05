@@ -38,7 +38,7 @@ export default function Home() {
 				<section className="min-h-screen">
 					<nav className=" z-10 py-7 flex justify-around overflow-hidden fixed top-0 min-w-full bg-gray-400 bg-opacity-20 backdrop-blur-md dark:bg-gray-700 dark:bg-opacity-20">
 						<h1 className="text-xl dark:text-white">
-							developedbyJordi
+							codedByJordi
 						</h1>
 						<ul className="flex items-center">
 							<li>
@@ -67,10 +67,6 @@ export default function Home() {
 									style={{
 										cursor: "pointer",
 									}}
-									// download
-									// href={
-									// 	resume
-									// }
 									onClick={() =>
 										alert(
 											"Ups! this feature is not working yet, my bad! :/"

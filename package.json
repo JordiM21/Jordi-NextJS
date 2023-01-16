@@ -11,16 +11,21 @@
   "dependencies": {
     "@next/font": "^13.0.6",
     "dotenv": "^16.0.3",
+    "framer-motion": "^8.4.3",
     "next": "13.0.6",
     "nodemailer": "^6.8.0",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "react-icons": "^4.7.1",
+    "react-intersection-observer": "^9.4.1",
     "react-use-downloader": "^1.2.1"
   },
   "devDependencies": {
+    "@types/node": "18.11.18",
+    "@types/react": "18.0.26",
     "autoprefixer": "^10.4.13",
     "postcss": "^8.4.19",
-    "tailwindcss": "^3.2.4"
+    "tailwindcss": "^3.2.4",
+    "typescript": "4.9.4"
   }
 }

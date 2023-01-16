@@ -12,11 +12,16 @@ import { TbBrandJavascript } from "react-icons/tb";
 import blackJordi from "../public/avatar-black.png";
 import whiteJordi from "../public/avatar-white.png";
 import Image from "next/image";
+import { motion } from "framer-motion";
 
 const FirstPage = ({ darkMode }) => {
 	return (
 		<div className="px-10 md:px-20 lg:px-40 pt-12">
-			<div>
+			<motion.div
+				animate={{ y: 0, opacity: 1 }}
+				initial={{ y: 25, opacity: 0 }}
+				transition={{ delay: 0.2, duration: 1.5 }}
+			>
 				<div className="group text-center p-10">
 					<h2 className="text-6xl py-2 text-teal-800 font-medium md:text-8xl dark:text-teal-600">
 						Jordi Mantilla
@@ -48,26 +53,59 @@ const FirstPage = ({ darkMode }) => {
 						reality with code.
 					</p>
 				</div>
-			</div>
+			</motion.div>
 			<div className="text-5xl flex align-middle justify-center gap-10 py-3 text-gray-600">
-				<a
-					href="https://www.linkedin.com/in/jordi-mantilla21/"
-					target="blank"
+				<motion.div
+					initial={{ scale: 0 }}
+					animate={{ rotate: 360, scale: 1 }}
+					transition={{
+						delay: 0.1,
+						type: "spring",
+						stiffness: 260,
+						damping: 20,
+					}}
 				>
-					<BsLinkedin className="hover:text-teal-900 dark:hover:text-white cursor-pointer hover:scale-110 transition ease-in duration-100" />
-				</a>
-				<a
-					href="https://github.com/JordiM21"
-					target="blank"
+					<a
+						href="https://www.linkedin.com/in/jordi-mantilla21/"
+						target="blank"
+					>
+						<BsLinkedin className="hover:text-teal-900 dark:hover:text-white cursor-pointer hover:scale-110 transition ease-in duration-100" />
+					</a>
+				</motion.div>
+				<motion.div
+					initial={{ scale: 0 }}
+					animate={{ rotate: 360, scale: 1 }}
+					transition={{
+						delay: 0.2,
+						type: "spring",
+						stiffness: 260,
+						damping: 20,
+					}}
 				>
-					<BsGithub className="hover:text-teal-900 dark:hover:text-white cursor-pointer hover:scale-110 transition ease-in duration-100" />
-				</a>
-				<a
-					href="mailto:jordimantilla21@gmail.com"
-					target="blank"
+					<a
+						href="https://github.com/JordiM21"
+						target="blank"
+					>
+						<BsGithub className="hover:text-teal-900 dark:hover:text-white cursor-pointer hover:scale-110 transition ease-in duration-100" />
+					</a>
+				</motion.div>
+				<motion.div
+					initial={{ scale: 0 }}
+					animate={{ rotate: 360, scale: 1 }}
+					transition={{
+						delay: 0.3,
+						type: "spring",
+						stiffness: 260,
+						damping: 20,
+					}}
 				>
-					<AiFillMail className="hover:text-teal-900 dark:hover:text-white cursor-pointer hover:scale-110 transition ease-in duration-100" />
-				</a>
+					<a
+						href="mailto:jordimantilla21@gmail.com"
+						target="blank"
+					>
+						<AiFillMail className="hover:text-teal-900 dark:hover:text-white cursor-pointer hover:scale-110 transition ease-in duration-100" />
+					</a>
+				</motion.div>
 			</div>
 			<div className="border-solid border-b-2 border-b-teal-500 dark:border-b-teal-400 mx-auto bg-gradient-to-b  from-teal-500 dark:from-teal-400 rounded-full w-80 h-80 mt-20 overflow-hidden md:h-120 md:w-120">
 				<Image

@@ -1,6 +1,6 @@
 import Head from "next/head";
 import { BsFillMoonFill, BsFillSunFill } from "react-icons/bs";
-import { useState, useEffect } from "react";
+import { useEffect, useState } from "react";
 import { AiOutlineDownload } from "react-icons/ai";
 import FirstPage from "./FirstPage";
 import About from "./About";
@@ -8,21 +8,26 @@ import Projects from "./Projects";
 import Banner from "./Banner";
 import ContactMe from "./ContactMe";
 import Footer from "./Footer";
-// import useDownloader from "react-use-downloader";
-// import resume from "./Full-Stack-Developer.pdf";
+import withSuspense from "../Hydration/withSuspense";
+import { motion, useScroll, useSpring } from "framer-motion";
 
-export default function Home() {
+const Home = () => {
+	//this progress can be passed to the children
+	const { progress } = useScroll();
+	const [initialProgress, setInitialProgress] = useState(0.5);
+	//Here changes the progress while scrolling
+	useEffect(() => {
+		setInitialProgress(progress);
+		console.log("scroll");
+	}, [progress]);
+
 	const [darkMode, setDarkMode] = useState(false);
-
-	// const { download } = useDownloader();
-
-	// const fileUrl = "../public/Full-Stack-Developer.pdf";
-	// const fileName = "Jordi Mantilla Full-Stack Developer";
-
-	// //hydration
-	// useEffect(() => {
-	// 	setDarkMode(darkMode);
-	// }, []);
+	const { scrollYProgress } = useScroll();
+	const scaleX = useSpring(scrollYProgress, {
+		stiffness: 100,
+		damping: 30,
+		restDelta: 0.001,
+	});
 
 	return (
 		<div className={darkMode ? "dark" : ""}>
@@ -37,6 +42,12 @@ export default function Home() {
 			<main className="bg-white dark:bg-gray-900 transition ease-in delay-100 font-bold">
 				<section className="min-h-screen">
 					<nav className=" z-10 py-7 flex justify-around overflow-hidden fixed top-0 min-w-full bg-gray-400 bg-opacity-20 backdrop-blur-md dark:bg-gray-700 dark:bg-opacity-20">
+						<motion.div
+							style={{
+								scaleX,
+							}}
+							className="origin-left h-1 fixed right-0 bottom-0 left-0 bg-teal-700  top-0"
+						></motion.div>
 						<h1 className="text-xl dark:text-white">
 							codedByJordi
 						</h1>
@@ -86,7 +97,7 @@ export default function Home() {
 					<About />
 				</section>
 				<section>
-					<a href="#Form">
+					<a id="Banner" href="#Form">
 						<Banner />
 					</a>
 				</section>
@@ -102,4 +113,5 @@ export default function Home() {
 			</main>
 		</div>
 	);
-}
+};
+export default withSuspense(Home);

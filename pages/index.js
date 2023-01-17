@@ -10,6 +10,8 @@ import ContactMe from "./ContactMe";
 import Footer from "./Footer";
 import withSuspense from "../Hydration/withSuspense";
 import { motion, useScroll, useSpring } from "framer-motion";
+import Logo from "../components/Logo";
+import LogoDarkMode from "../components/LogoDarkMode";
 
 const Home = () => {
 	//this progress can be passed to the children
@@ -48,9 +50,12 @@ const Home = () => {
 							}}
 							className="origin-left h-1 fixed right-0 bottom-0 left-0 bg-teal-700  top-0"
 						></motion.div>
-						<h1 className="text-xl dark:text-white">
-							codedByJordi
-						</h1>
+						{darkMode ? (
+							<LogoDarkMode />
+						) : (
+							<Logo />
+						)}
+
 						<ul className="flex items-center">
 							<li>
 								{darkMode ? (

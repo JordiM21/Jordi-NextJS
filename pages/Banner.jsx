@@ -10,8 +10,8 @@ const Banner = () => {
 	const [ref, inView] = useInView();
 
 	const boxVariant = {
-		visible: { opacity: 1, scale: 1 },
-		hidden: { opacity: 0.5, scale: 0.5 },
+		visible: { opacity: 1, x: 0 },
+		hidden: { opacity: 0, x: -50 },
 	};
 
 	useEffect(() => {

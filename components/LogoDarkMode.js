@@ -4,6 +4,7 @@ export default function Logo() {
 	return (
 		<div>
 			<svg
+				id="logo"
 				width="200"
 				height="32"
 				viewBox="0 0 923 147"

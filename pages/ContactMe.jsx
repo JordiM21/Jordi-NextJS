@@ -35,7 +35,7 @@ const ContactMe = () => {
 
 	return (
 		<>
-			<form className="w-full max-w-sm lg:max-w-2xl my-10 mx-auto">
+			<form className="max-w-sm md:max-w-lg lg:max-w-2xl my-10 mx-20 sm:mx-auto md:w-full">
 				<h2 className="text-4xl text-gray-800 dark:text-gray-200 text-center mb-10">
 					Let's stay in touch!
 				</h2>

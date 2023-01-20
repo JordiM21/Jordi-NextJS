@@ -42,21 +42,9 @@ const Home = () => {
 				<link rel="icon" href="/favicon.ico" />
 			</Head>
 			<main className="bg-white dark:bg-gray-900 transition ease-in delay-100 font-bold">
-				<section className="min-h-screen">
-					<nav className=" z-10 py-7 flex justify-around overflow-hidden fixed top-0 min-w-full bg-gray-400 bg-opacity-20 backdrop-blur-md dark:bg-gray-700 dark:bg-opacity-20">
-						<motion.div
-							style={{
-								scaleX,
-							}}
-							className="origin-left h-1 fixed right-0 bottom-0 left-0 bg-teal-700  top-0"
-						></motion.div>
-						{darkMode ? (
-							<LogoDarkMode />
-						) : (
-							<Logo />
-						)}
-
-						<ul className="flex items-center">
+				<section className=" min-h-screen">
+					<nav className=" z-10 py-7 flex justify-between w-full overflow-hidden fixed top-0 bg-gray-400 bg-opacity-20 backdrop-blur-md dark:bg-gray-700 dark:bg-opacity-20">
+						<ul className=" flex items-center justify-around w-full">
 							<li>
 								{darkMode ? (
 									<BsFillSunFill
@@ -65,7 +53,7 @@ const Home = () => {
 												!darkMode
 											)
 										}
-										className="cursor-pointer text-2xl text-yellow-300"
+										className="cursor-pointer text-2xl text-yellow-300 mx-8 sm:mx-14"
 									/>
 								) : (
 									<BsFillMoonFill
@@ -74,8 +62,21 @@ const Home = () => {
 												!darkMode
 											)
 										}
-										className="cursor-pointer text-2xl text-gray-900"
+										className="cursor-pointer text-xl md:text-2xl text-gray-900 mx-8 sm:mx-14"
 									/>
+								)}
+							</li>
+							<li>
+								<motion.div
+									style={{
+										scaleX,
+									}}
+									className="origin-left h-1 fixed right-0 bottom-0 left-0 bg-teal-700  top-0"
+								></motion.div>
+								{darkMode ? (
+									<LogoDarkMode />
+								) : (
+									<Logo />
 								)}
 							</li>
 							<li>
@@ -88,10 +89,10 @@ const Home = () => {
 											"Ups! this feature is not working yet, my bad! :/"
 										)
 									}
-									className="bg-gradient-to-r from-cyan-500 to-cyan-300 hover:from-cyan-500 hover:to-cyan-400 transition-colors ease-in duration-150 text-white px-4 py-2 border-none rounded-md ml-8 flex items-center gap-2"
+									className="bg-gradient-to-r from-cyan-500 to-cyan-300 hover:from-cyan-500 hover:to-cyan-400 transition-colors ease-in duration-150 text-white px-1 py-2 md:px-4 md:py-2 border-none rounded-md ml-8 flex items-center gap-2"
 								>
 									Resume
-									<AiOutlineDownload className="text-2xl" />
+									<AiOutlineDownload className="text-lg md:text-2xl" />
 								</a>
 							</li>
 						</ul>

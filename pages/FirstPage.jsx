@@ -107,7 +107,7 @@ const FirstPage = ({ darkMode }) => {
 					</a>
 				</motion.div>
 			</div>
-			<div className="border-solid border-b-2 border-b-teal-500 dark:border-b-teal-400 mx-auto bg-gradient-to-b  from-teal-500 dark:from-teal-400 rounded-full w-80 h-80 mt-20 overflow-hidden md:h-120 md:w-120">
+			<div className="border-solid border-b-2 border-b-teal-500 dark:border-b-teal-400 mx-auto bg-gradient-to-b  from-teal-500 dark:from-teal-400 rounded-full w-60 h-60 sm:w-80 sm:h-80 mt-20 overflow-hidden md:h-120 md:w-120">
 				<Image
 					alt="personal-logo"
 					src={darkMode ? blackJordi : whiteJordi}

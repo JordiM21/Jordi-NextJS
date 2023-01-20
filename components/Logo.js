@@ -2,11 +2,9 @@ import React from "react";
 
 export default function Logo() {
 	return (
-		<div>
+		<div className="h-6 w-32 sm:w-40 md:w-48">
 			<svg
 				id="logo"
-				width="200"
-				height="32"
 				viewBox="0 0 923 147"
 				fill="none"
 				xmlns="http://www.w3.org/2000/svg"

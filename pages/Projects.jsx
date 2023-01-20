@@ -10,6 +10,7 @@ import { SiJavascript, SiTailwindcss, SiRedux } from "react-icons/si";
 import { AiFillHtml5 } from "react-icons/ai";
 import { TbBrandNextjs } from "react-icons/tb";
 import { IoLogoFirebase } from "react-icons/io5";
+import Link from "next/link";
 
 const Projects = () => {
 	return (
@@ -30,24 +31,22 @@ const Projects = () => {
 			<div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
 				<div className="basis-1/3 flex-1 relative z-0">
 					<div className="flex absolute min-w-full z-10">
-						<div className="transition ease-in cursor-pointer dark:hover:bg-gray-900 flex justify-center text-white bg-teal-700 hover:bg-white hover:text-teal-700 w-1/2 h-8  place-items-center dark:bg-white dark:text-gray-900 dark:hover:text-white">
-							<a
-								href="https://github.com/JordiM21/Amason"
-								target="blank"
-							>
-								Go to Repo
-							</a>
+						<Link
+							href="https://github.com/JordiM21/Amason"
+							target="blank"
+							className="transition ease-in cursor-pointer dark:hover:bg-gray-900 flex justify-center text-white bg-teal-700 hover:bg-white hover:text-teal-700 w-1/2 h-8  place-items-center dark:bg-white dark:text-gray-900 dark:hover:text-white"
+						>
+							<a>Go to Repo</a>
 							<FaExternalLinkAlt className="ml-2" />
-						</div>
-						<div className="transition ease-in cursor-pointer dark:hover:bg-gray-900 flex justify-center text-white bg-teal-700 hover:bg-white hover:text-teal-700 w-1/2 h-8  place-items-center dark:bg-white dark:text-gray-900 dark:hover:text-white">
-							<a
-								href="https://amason.vercel.app"
-								target="blank"
-							>
-								Go to Live
-							</a>
+						</Link>
+						<Link
+							href="https://amason.vercel.app"
+							target="blank"
+							className="transition ease-in cursor-pointer dark:hover:bg-gray-900 flex justify-center text-white bg-teal-700 hover:bg-white hover:text-teal-700 w-1/2 h-8  place-items-center dark:bg-white dark:text-gray-900 dark:hover:text-white"
+						>
+							<a>Go to Live</a>
 							<FaExternalLinkAlt className="ml-2" />
-						</div>
+						</Link>
 					</div>
 					<div className="bg-white overflow-hidden">
 						<Image
@@ -88,24 +87,22 @@ const Projects = () => {
 				</div>
 				<div className="basis-1/3 flex-1 relative z-0">
 					<div className="flex absolute min-w-full z-10">
-						<div className="transition ease-in cursor-pointer dark:hover:bg-gray-900 flex justify-center text-white bg-teal-700 hover:bg-white hover:text-teal-700 w-1/2 h-8  place-items-center dark:bg-white dark:text-gray-900 dark:hover:text-white">
-							<a
-								href="https://github.com/JordiM21/NextJS-Rick-Morty"
-								target="blank"
-							>
-								Go to Repo
-							</a>
+						<Link
+							href="https://github.com/JordiM21/NextJS-Rick-Morty"
+							target="blank"
+							className="transition ease-in cursor-pointer dark:hover:bg-gray-900 flex justify-center text-white bg-teal-700 hover:bg-white hover:text-teal-700 w-1/2 h-8  place-items-center dark:bg-white dark:text-gray-900 dark:hover:text-white"
+						>
+							<a>Go to Repo</a>
 							<FaExternalLinkAlt className="ml-2" />
-						</div>
-						<div className="transition ease-in cursor-pointer dark:hover:bg-gray-900 flex justify-center text-white bg-teal-700 hover:bg-white hover:text-teal-700 w-1/2 h-8  place-items-center dark:bg-white dark:text-gray-900 dark:hover:text-white">
-							<a
-								href="https://rickmorty-nextjs.vercel.app"
-								target="blank"
-							>
-								Go to Live
-							</a>
+						</Link>
+						<Link
+							href="https://rickmorty-nextjs.vercel.app"
+							target="blank"
+							className="transition ease-in cursor-pointer dark:hover:bg-gray-900 flex justify-center text-white bg-teal-700 hover:bg-white hover:text-teal-700 w-1/2 h-8  place-items-center dark:bg-white dark:text-gray-900 dark:hover:text-white"
+						>
+							<a>Go to Live</a>
 							<FaExternalLinkAlt className="ml-2" />
-						</div>
+						</Link>
 					</div>
 					<div className="overflow-hidden">
 						<Image
@@ -144,24 +141,22 @@ const Projects = () => {
 				</div>
 				<div className="basis-1/3 flex-1 relative z-0">
 					<div className="flex absolute min-w-full z-10">
-						<div className="transition ease-in cursor-pointer dark:hover:bg-gray-900 flex justify-center text-white bg-teal-700 hover:bg-white hover:text-teal-700 w-1/2 h-8  place-items-center dark:bg-white dark:text-gray-900 dark:hover:text-white">
-							<a
-								href="https://github.com/JordiM21/Fasebook-Firebase/"
-								target="blank"
-							>
-								Go to Repo
-							</a>
+						<Link
+							href="https://github.com/JordiM21/Fasebook-Firebase/"
+							target="blank"
+							className="transition ease-in cursor-pointer dark:hover:bg-gray-900 flex justify-center text-white bg-teal-700 hover:bg-white hover:text-teal-700 w-1/2 h-8  place-items-center dark:bg-white dark:text-gray-900 dark:hover:text-white"
+						>
+							<a>Go to Repo</a>
 							<FaExternalLinkAlt className="ml-2" />
-						</div>
-						<div className="transition ease-in cursor-pointer dark:hover:bg-gray-900 flex justify-center text-white bg-teal-700 hover:bg-white hover:text-teal-700 w-1/2 h-8  place-items-center dark:bg-white dark:text-gray-900 dark:hover:text-white">
-							<a
-								href="https://fasebook.vercel.app"
-								target="blank"
-							>
-								Go to Live
-							</a>
+						</Link>
+						<Link
+							href="https://fasebook.vercel.app"
+							target="blank"
+							className="transition ease-in cursor-pointer dark:hover:bg-gray-900 flex justify-center text-white bg-teal-700 hover:bg-white hover:text-teal-700 w-1/2 h-8  place-items-center dark:bg-white dark:text-gray-900 dark:hover:text-white"
+						>
+							<a>Go to Live</a>
 							<FaExternalLinkAlt className="ml-2" />
-						</div>
+						</Link>
 					</div>
 					<div className="overflow-hidden">
 						<Image
@@ -203,24 +198,22 @@ const Projects = () => {
 				</div>
 				<div className="basis-1/3 flex-1 relative z-0">
 					<div className="flex absolute min-w-full z-10">
-						<div className="transition ease-in cursor-pointer dark:hover:bg-gray-900 flex justify-center text-white bg-teal-700 hover:bg-white hover:text-teal-700 w-1/2 h-8  place-items-center dark:bg-white dark:text-gray-900 dark:hover:text-white">
-							<a
-								href="https://github.com/JordiM21/let-official-page"
-								target="blank"
-							>
-								Go to Repo
-							</a>
+						<Link
+							href="https://github.com/JordiM21/let-official-page"
+							target="blank"
+							className="transition ease-in cursor-pointer dark:hover:bg-gray-900 flex justify-center text-white bg-teal-700 hover:bg-white hover:text-teal-700 w-1/2 h-8  place-items-center dark:bg-white dark:text-gray-900 dark:hover:text-white"
+						>
+							<a>Go to Repo</a>
 							<FaExternalLinkAlt className="ml-2" />
-						</div>
-						<div className="transition ease-in cursor-pointer dark:hover:bg-gray-900 flex justify-center text-white bg-teal-700 hover:bg-white hover:text-teal-700 w-1/2 h-8  place-items-center dark:bg-white dark:text-gray-900 dark:hover:text-white">
-							<a
-								href="https://let-official-page.vercel.app"
-								target="blank"
-							>
-								Go to Live
-							</a>
+						</Link>
+						<Link
+							href="https://let-official-page.vercel.app"
+							target="blank"
+							className="transition ease-in cursor-pointer dark:hover:bg-gray-900 flex justify-center text-white bg-teal-700 hover:bg-white hover:text-teal-700 w-1/2 h-8  place-items-center dark:bg-white dark:text-gray-900 dark:hover:text-white"
+						>
+							<a>Go to Live</a>
 							<FaExternalLinkAlt className="ml-2" />
-						</div>
+						</Link>
 					</div>
 					<div className="overflow-hidden">
 						<Image

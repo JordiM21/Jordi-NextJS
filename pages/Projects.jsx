@@ -88,7 +88,7 @@ const Projects = () => {
 				<div className="basis-1/3 flex-1 relative z-0">
 					<div className="flex absolute min-w-full z-10">
 						<Link
-							href="https://github.com/JordiM21/NextJS-Rick-Morty"
+							href="https://github.com/JordiM21/youtube-clone/tree/main"
 							target="blank"
 							className="transition ease-in cursor-pointer dark:hover:bg-gray-900 flex justify-center text-white bg-teal-700 hover:bg-white hover:text-teal-700 w-1/2 h-8  place-items-center dark:bg-white dark:text-gray-900 dark:hover:text-white"
 						>
@@ -96,7 +96,7 @@ const Projects = () => {
 							<FaExternalLinkAlt className="ml-2" />
 						</Link>
 						<Link
-							href="https://rickmorty-nextjs.vercel.app"
+							href="https://youtuve.vercel.app/"
 							target="blank"
 							className="transition ease-in cursor-pointer dark:hover:bg-gray-900 flex justify-center text-white bg-teal-700 hover:bg-white hover:text-teal-700 w-1/2 h-8  place-items-center dark:bg-white dark:text-gray-900 dark:hover:text-white"
 						>
@@ -113,29 +113,17 @@ const Projects = () => {
 					</div>
 					<div className="text-white bg-teal-700 justify-center gap-2 rounded-b-md">
 						<div className="text-lg text-teal-200 flex justify-center items-center">
-							<p>Rick & Morty</p>
-							<SiTailwindcss />
+							<p>Youtube Clone</p>
 							<DiCss3 />
 							<AiFillHtml5 />
 							<SiJavascript />
 							<DiReact />
-							<TbBrandNextjs />
 						</div>
 						<p className="text-sm px-4 py-2 text-center">
 							<span className="text-gray-800">
-								Planets and
-								Characters
-								library,
+								Video Platform page,
 							</span>{" "}
-							Front End project
-							totally responsive
-							fetching the official
-							Rick & Morty API with
-							basics functionallity
-							such as pagination,
-							filtering by status or
-							even by name writing
-							them on the input
+							Front end page made using a Youtube Api to get information and fetch into this awesome page that has features like, see the channels details, see whatever video of youtube, select by category, show related videos when watching one and so on!
 						</p>
 					</div>
 				</div>
@@ -167,7 +155,7 @@ const Projects = () => {
 					</div>
 					<div className="text-white bg-teal-700 justify-center gap-2 rounded-b-md">
 						<div className="text-lg text-teal-200 flex justify-center items-center">
-							<p>Fasebook</p>
+							<p>Facebook Clone</p>
 							<DiCss3 />
 							<AiFillHtml5 />
 							<SiJavascript />
@@ -224,7 +212,7 @@ const Projects = () => {
 					</div>
 					<div className="text-white bg-teal-700 justify-center gap-2 rounded-b-md">
 						<div className="text-lg text-teal-200 flex justify-center items-center">
-							<p>Ecommerce</p>
+							<p>Learn English Page</p>
 							<DiCss3 />
 							<AiFillHtml5 />
 							<SiJavascript />

@@ -20,7 +20,6 @@ const Home = () => {
 	//Here changes the progress while scrolling
 	useEffect(() => {
 		setInitialProgress(progress);
-		console.log("scroll");
 	}, [progress]);
 
 	const [darkMode, setDarkMode] = useState(false);
@@ -81,14 +80,10 @@ const Home = () => {
 							</li>
 							<li>
 								<a
+								href="https://drive.google.com/file/d/1qi0SU3sefxeTRao7IKMFnzaUY2lIS_P2/view?usp=share_link" target="_blank"
 									style={{
 										cursor: "pointer",
 									}}
-									onClick={() =>
-										alert(
-											"Ups! this feature is not working yet, my bad! :/"
-										)
-									}
 									className="bg-gradient-to-r from-cyan-500 to-cyan-300 hover:from-cyan-500 hover:to-cyan-400 transition-colors ease-in duration-150 text-white px-1 py-2 md:px-4 md:py-2 border-none rounded-md ml-8 flex items-center gap-2"
 								>
 									Resume

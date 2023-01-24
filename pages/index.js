@@ -47,20 +47,12 @@ const Home = () => {
 							<li>
 								{darkMode ? (
 									<BsFillSunFill
-										onClick={() =>
-											setDarkMode(
-												!darkMode
-											)
-										}
+										onClick={() => setDarkMode(!darkMode)}
 										className="cursor-pointer text-2xl text-yellow-300 mx-8 sm:mx-14"
 									/>
 								) : (
 									<BsFillMoonFill
-										onClick={() =>
-											setDarkMode(
-												!darkMode
-											)
-										}
+										onClick={() => setDarkMode(!darkMode)}
 										className="cursor-pointer text-xl md:text-2xl text-gray-900 mx-8 sm:mx-14"
 									/>
 								)}
@@ -72,15 +64,12 @@ const Home = () => {
 									}}
 									className="origin-left h-1 fixed right-0 bottom-0 left-0 bg-teal-700  top-0"
 								></motion.div>
-								{darkMode ? (
-									<LogoDarkMode />
-								) : (
-									<Logo />
-								)}
+								{darkMode ? <LogoDarkMode /> : <Logo />}
 							</li>
 							<li>
 								<a
-								href="https://drive.google.com/file/d/1qi0SU3sefxeTRao7IKMFnzaUY2lIS_P2/view?usp=share_link" target="_blank"
+									href="https://drive.google.com/file/d/1sNMcESi7m3_2untX0jiShCwPU7LMHP67/view?usp=sharing"
+									target="_blank"
 									style={{
 										cursor: "pointer",
 									}}

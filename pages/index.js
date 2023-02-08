@@ -68,7 +68,7 @@ const Home = () => {
 							</li>
 							<li>
 								<a
-									href="https://drive.google.com/file/d/1BDNktizshlmltN7OTqPOQWAVeTdEkxU6/view?usp=share_link"
+									href="https://drive.google.com/file/d/1IeE6VuMyPjepQx0R4VJkp_8wMKZhJ6O3/view?usp=sharing"
 									target="_blank"
 									style={{
 										cursor: "pointer",

@@ -1,18 +1,22 @@
 import React from "react";
 import Image from "next/image";
-import ecommercePage from "../public/ecommerce-banner.png";
-import rickPage from "../public/rick-banner.png";
-import fasebook from "../public/react-pokedex.png";
-import crudPage from "../public/Banner-LET.png";
+import ecommercePage from "../public/ecommerce-banner.gif";
+import rickPage from "../public/rick-banner.gif";
+import crudPage from "../public/react-pokedex.gif";
+import video1 from '../public/FogTL.gif'
 import { FaExternalLinkAlt } from "react-icons/fa";
-import { DiReact, DiCss3 } from "react-icons/di";
-import { SiJavascript, SiTailwindcss, SiRedux } from "react-icons/si";
+import { DiReact, DiCss3, DiFirebase } from "react-icons/di";
+import { SiJavascript, SiTailwindcss, SiRedux, SiFirebase } from "react-icons/si";
 import { AiFillHtml5 } from "react-icons/ai";
 import { TbBrandNextjs } from "react-icons/tb";
-import { IoLogoFirebase } from "react-icons/io5";
 import Link from "next/link";
 
 const Projects = () => {
+
+	const noLiveServer = () => {
+		alert("This is a react native aplication so there is not a live server available on the web but, you can always take a look at the repo!")
+	}
+
 	return (
 		<div className="px-10 md:px-20 lg:px-40 mt-20">
 			<div>
@@ -50,8 +54,8 @@ const Projects = () => {
 					</div>
 					<div className="bg-white overflow-hidden">
 						<Image
-							alt="ecommerce"
-							className="object-contain hover:scale-110 hover: transition ease-in cursor-pointer h-64"
+							alt="ecommerce page"
+							className="object-cover hover:scale-110 hover: transition ease-in cursor-pointer h-64"
 							src={ecommercePage}
 						/>
 					</div>
@@ -130,7 +134,7 @@ const Projects = () => {
 				<div className="basis-1/3 flex-1 relative z-0">
 					<div className="flex absolute min-w-full z-10">
 						<Link
-							href="https://github.com/JordiM21/Fasebook-Firebase/"
+							href="https://github.com/JordiM21/DeliveryApp-RNative"
 							target="blank"
 							className="transition ease-in cursor-pointer dark:hover:bg-gray-900 flex justify-center text-white bg-teal-700 hover:bg-white hover:text-teal-700 w-1/2 h-8  place-items-center dark:bg-white dark:text-gray-900 dark:hover:text-white"
 						>
@@ -138,7 +142,8 @@ const Projects = () => {
 							<FaExternalLinkAlt className="ml-2" />
 						</Link>
 						<Link
-							href="https://fasebook.vercel.app"
+							onClick={noLiveServer}
+							href="https://github.com/JordiM21/DeliveryApp-RNative"
 							target="blank"
 							className="transition ease-in cursor-pointer dark:hover:bg-gray-900 flex justify-center text-white bg-teal-700 hover:bg-white hover:text-teal-700 w-1/2 h-8  place-items-center dark:bg-white dark:text-gray-900 dark:hover:text-white"
 						>
@@ -149,45 +154,31 @@ const Projects = () => {
 					<div className="overflow-hidden">
 						<Image
 							alt="pokedex"
-							className="object-cover hover:scale-110 hover: transition ease-in cursor-pointer h-64"
-							src={fasebook}
+							className="object-contain bg-slate-300 hover:scale-110 hover: transition ease-in cursor-pointer h-64"
+							src={video1}
 						/>
 					</div>
 					<div className="text-white bg-teal-700 justify-center gap-2 rounded-b-md">
 						<div className="text-lg text-teal-200 flex justify-center items-center">
-							<p>Facebook Clone</p>
+							<p>Delivery App</p>
 							<DiCss3 />
 							<AiFillHtml5 />
 							<SiJavascript />
 							<DiReact />
-							<TbBrandNextjs />
 							<SiTailwindcss />
-							<IoLogoFirebase />
 						</div>
 						<p className="text-sm px-4 py-2 text-center">
 							<span className="text-gray-800">
-								Clone of
-								Facebook,
+								Copy of a delivery mobile app,
 							</span>{" "}
-							Full Stack project using
-							NextJS and tailwind to
-							fetch and modify the
-							data in a firebase
-							database with
-							functionallities such
-							as, log in with Google,
-							see the feed, what means
-							other people's posts,
-							comment them, edit your
-							posts on your profile
-							and delete them
+							I was part of a talented team of graphic designers, backend developers and QA, I worked on the frontend using react-native and tailwind to make it multiplatform, we implement all the functionallities for a delivery app such as, add products to the cart, sum them, delete them, purchase, filter restaurants
 						</p>
 					</div>
 				</div>
 				<div className="basis-1/3 flex-1 relative z-0">
 					<div className="flex absolute min-w-full z-10">
 						<Link
-							href="https://github.com/JordiM21/let-official-page"
+							href="https://github.com/JordiM21/Fasebook-Firebase"
 							target="blank"
 							className="transition ease-in cursor-pointer dark:hover:bg-gray-900 flex justify-center text-white bg-teal-700 hover:bg-white hover:text-teal-700 w-1/2 h-8  place-items-center dark:bg-white dark:text-gray-900 dark:hover:text-white"
 						>
@@ -195,7 +186,7 @@ const Projects = () => {
 							<FaExternalLinkAlt className="ml-2" />
 						</Link>
 						<Link
-							href="https://let-official-page.vercel.app"
+							href="https://fasebook.vercel.app/"
 							target="blank"
 							className="transition ease-in cursor-pointer dark:hover:bg-gray-900 flex justify-center text-white bg-teal-700 hover:bg-white hover:text-teal-700 w-1/2 h-8  place-items-center dark:bg-white dark:text-gray-900 dark:hover:text-white"
 						>
@@ -212,26 +203,31 @@ const Projects = () => {
 					</div>
 					<div className="text-white bg-teal-700 justify-center gap-2 rounded-b-md">
 						<div className="text-lg text-teal-200 flex justify-center items-center">
-							<p>Learn English Page</p>
-							<DiCss3 />
+							<p>Social Media App</p>
 							<AiFillHtml5 />
 							<SiJavascript />
 							<DiReact />
 							<TbBrandNextjs />
 							<SiTailwindcss />
+							<SiFirebase />
 						</div>
 						<p className="text-sm px-4 py-2 text-center">
 							<span className="text-gray-800">
-								Langing Page,
+								Full Stack
+								Project,
 							</span>{" "}
-							Front End project
-							promoting an english
-							academy that sells
-							courses online and teach
-							people how to speak
-							english, page made using
-							material UI, Tailwind
-							and NextJS
+							using
+							NextJS and tailwind to
+							fetch and modify the
+							data in a firebase
+							database with
+							functionallities such
+							as, log in with Google,
+							see the feed, what means
+							other people's posts,
+							comment them, edit your
+							posts on your profile
+							and delete them
 						</p>
 					</div>
 				</div>

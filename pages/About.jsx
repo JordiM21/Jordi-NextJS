@@ -38,13 +38,13 @@ const About = () => {
 				</p>
 			</div>
 			<div className=" lg:flex gap-10">
-				<div className="group hover:shadow-2xl transition ease-in duration-150 cursor-pointer text-center shadow-lg p-10 rounded-xl my-10 max-w-screen-sm">
+				<div className="transition ease-in duration-150 cursor-pointer text-center shadow-lg p-10 rounded-xl my-10 max-w-screen-sm">
 					<Image
-						className="mx-auto group-hover:scale-110 transition ease-in duration-150 group-hover:drop-shadow-xl"
+						className="mx-auto transition ease-in duration-150"
 						alt="front-end"
 						src={front}
 					/>
-					<h3 className="group-hover:underline decoration-teal-600 group-hover:scale-110 transition ease-in duration-150 text-2xl front-medium pt-8 pb-2 dark:text-white">
+					<h3 className="decoration-teal-600 transition ease-in duration-150 text-2xl front-medium pt-8 pb-2 dark:text-white">
 						Front End
 					</h3>
 					<p className="py-2 dark:text-gray-400">
@@ -56,21 +56,21 @@ const About = () => {
 					<h4 className="py-4 text-teal-600 ">
 						Design tools i use
 					</h4>
-					<p className="group-hover:opacity-70 transition ease-in duration-150 text-gray-800 py-1 dark:text-gray-400">
+					<p className="transition ease-in duration-150 text-gray-800 py-1 dark:text-gray-400">
 						Javascript - React - NextJS
 					</p>
-					<p className="group-hover:opacity-70 transition ease-in duration-150 text-gray-800 py-1 dark:text-gray-400">
+					<p className="transition ease-in duration-150 text-gray-800 py-1 dark:text-gray-400">
 						Css - Sass - Tailwind -
 						Bootstrap
 					</p>
 				</div>
-				<div className="group hover:shadow-2xl transition ease-in duration-150 cursor-pointer text-center shadow-lg p-10 rounded-xl my-10 max-w-screen-sm">
+				<div className="transition ease-in duration-150 cursor-pointer text-center shadow-lg p-10 rounded-xl my-10 max-w-screen-sm">
 					<Image
-						className="mx-auto group-hover:scale-110 ease-in transition duration-150 group-hover:drop-shadow-xl"
+						className="mx-auto ease-in transition duration-150"
 						alt="back-end"
 						src={back}
 					/>
-					<h3 className="group-hover:underline decoration-teal-600 group-hover:scale-110 transition ease-in duration-150 text-2xl front-medium pt-8 pb-2 dark:text-white">
+					<h3 className="decoration-teal-600 transition ease-in duration-150 text-2xl front-medium pt-8 pb-2 dark:text-white">
 						Back End
 					</h3>
 					<p className="py-2 dark:text-gray-400">
@@ -81,20 +81,20 @@ const About = () => {
 					<h4 className="py-4 text-teal-600 ">
 						Design tools i use
 					</h4>
-					<p className="group-hover:opacity-70 transition ease-in duration-150 text-gray-800 py-1 dark:text-gray-400">
+					<p className="transition ease-in duration-150 text-gray-800 py-1 dark:text-gray-400">
 						NodeJS - Express - Sequelize
 					</p>
-					<p className="group-hover:opacity-70 transition ease-in duration-150 text-gray-800 py-1 dark:text-gray-400">
+					<p className="transition ease-in duration-150 text-gray-800 py-1 dark:text-gray-400">
 						PostreSQL - MySQL
 					</p>
 				</div>
-				<div className="group hover:shadow-2xl transition ease-in duration-150 cursor-pointer text-center shadow-lg  p-10 rounded-xl my-10 max-w-screen-sm">
+				<div className="transition ease-in duration-150 cursor-pointer text-center shadow-lg  p-10 rounded-xl my-10 max-w-screen-sm">
 					<Image
-						className="mx-auto my-12 group-hover:scale-110 transition ease-in duration-150 group-hover:drop-shadow-xl"
+						className="mx-auto my-12 transition ease-in duration-150"
 						alt="no-code"
 						src={nocode}
 					/>
-					<h3 className="group-hover:underline decoration-teal-600 group-hover:scale-110 transition ease-in duration-150 text-2xl front-medium pt-8 pb-2 dark:text-white">
+					<h3 className="decoration-teal-600 transition ease-in duration-150 text-2xl front-medium pt-8 pb-2 dark:text-white">
 						No-Code Tools
 					</h3>
 					<p className="py-2 dark:text-gray-400">
@@ -106,10 +106,10 @@ const About = () => {
 					<h4 className="py-4 text-teal-600">
 						Design tools i use
 					</h4>
-					<p className="group-hover:opacity-70 transition ease-in duration-150 text-gray-800 py-1 dark:text-gray-400">
+					<p className="transition ease-in duration-150 text-gray-800 py-1 dark:text-gray-400">
 						Photoshop - Illustrator
 					</p>
-					<p className="group-hover:opacity-70 transition ease-in duration-150 text-gray-800 py-1 dark:text-gray-400">
+					<p className="transition ease-in duration-150 text-gray-800 py-1 dark:text-gray-400">
 						Figma - Adobe XD
 					</p>
 				</div>

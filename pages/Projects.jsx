@@ -1,15 +1,16 @@
 import React from "react";
 import Image from "next/image";
 import ecommercePage from "../public/ecommerce-banner.gif";
-import rickPage from "../public/rick-banner.gif";
+import chatgpt from "../public/chatgpt-clone.gif";
 import crudPage from "../public/react-pokedex.gif";
 import video1 from '../public/FogTL.gif'
 import { FaExternalLinkAlt } from "react-icons/fa";
 import { DiReact, DiCss3, DiFirebase } from "react-icons/di";
-import { SiJavascript, SiTailwindcss, SiRedux, SiFirebase } from "react-icons/si";
+import { SiJavascript, SiTailwindcss, SiRedux, SiFirebase, SiTypescript } from "react-icons/si";
 import { AiFillHtml5 } from "react-icons/ai";
 import { TbBrandNextjs } from "react-icons/tb";
 import Link from "next/link";
+
 
 const Projects = () => {
 
@@ -92,7 +93,7 @@ const Projects = () => {
 				<div className="basis-1/3 flex-1 relative z-0">
 					<div className="flex absolute min-w-full z-10">
 						<Link
-							href="https://github.com/JordiM21/youtube-clone/tree/main"
+							href="https://chatgpt-clone-jordim21.vercel.app/"
 							target="blank"
 							className="transition ease-in cursor-pointer dark:hover:bg-gray-900 flex justify-center text-white bg-teal-700 hover:bg-white hover:text-teal-700 w-1/2 h-8  place-items-center dark:bg-white dark:text-gray-900 dark:hover:text-white"
 						>
@@ -100,7 +101,7 @@ const Projects = () => {
 							<FaExternalLinkAlt className="ml-2" />
 						</Link>
 						<Link
-							href="https://youtuve.vercel.app/"
+							href="https://chatgpt-clone-jordim21.vercel.app/"
 							target="blank"
 							className="transition ease-in cursor-pointer dark:hover:bg-gray-900 flex justify-center text-white bg-teal-700 hover:bg-white hover:text-teal-700 w-1/2 h-8  place-items-center dark:bg-white dark:text-gray-900 dark:hover:text-white"
 						>
@@ -112,22 +113,26 @@ const Projects = () => {
 						<Image
 							alt="rick page"
 							className="object-cover hover:scale-110 hover: transition ease-in cursor-pointer h-64"
-							src={rickPage}
+							src={chatgpt}
 						/>
 					</div>
 					<div className="text-white bg-teal-700 justify-center gap-2 rounded-b-md">
 						<div className="text-lg text-teal-200 flex justify-center items-center">
-							<p>Youtube Clone</p>
+							<p>ChatGPT Clone</p>
 							<DiCss3 />
 							<AiFillHtml5 />
 							<SiJavascript />
 							<DiReact />
+							<SiTypescript />
+							<TbBrandNextjs />
+							<SiTailwindcss />
+							<SiFirebase />
 						</div>
 						<p className="text-sm px-4 py-2 text-center">
 							<span className="text-gray-800">
-								Video Platform page,
+								OpenAi ChatGPT App,
 							</span>{" "}
-							Front end page made using a Youtube Api to get information and fetch into this awesome page that has features like, see the channels details, see whatever video of youtube, select by category, show related videos when watching one and so on!
+							Amazing project following the trend of chatgpt built with typescript, next and tailwind, using openai Api source, implemented functionallities such as authentication, each user has his own chats and conversations that are posted to a database in firebase, also could change the provider
 						</p>
 					</div>
 				</div>

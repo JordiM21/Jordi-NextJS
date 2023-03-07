@@ -176,7 +176,7 @@ const Projects = () => {
 							<span className="text-gray-800">
 								Copy of a delivery mobile app,
 							</span>{" "}
-							I was part of a talented team of graphic designers, backend developers and QA, I worked on the frontend using react-native and tailwind to make it multiplatform, we implement all the functionallities for a delivery app such as, add products to the cart, sum them, delete them, purchase, filter restaurants
+							I was part of a talented team of graphic designers, backend developers and QA testers, I worked on the frontend using react-native and tailwind to make it multiplatform, we implement all the functionallities for a delivery app such as, add products to the cart, sum them, delete them, purchase, filter restaurants
 						</p>
 					</div>
 				</div>

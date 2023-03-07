@@ -30,15 +30,7 @@ const FirstPage = ({ darkMode }) => {
 						Software Developer
 					</h3>
 					<p className=" cursor-pointer text-xl py-5 leading-7 text-gray-600 dark:text-gray-400 md:text-xl max-w-lg mx-auto">
-						<span className="underline decoration-yellow-300 group-hover:bg-yellow-300 transition ease-in  cursor-pointer dark:group-hover:text-black rounded-l-md">
-							Colom
-						</span>
-						<span className="underline decoration-blue-300 group-hover:bg-blue-300 transition ease-in  cursor-pointer dark:group-hover:text-black">
-							bi
-						</span>
-						<span className="underline decoration-red-300 group-hover:bg-red-300 transition ease-in  cursor-pointer dark:group-hover:text-black rounded-r-md">
-							an
-						</span>{" "}
+						Web{" "}
 						developer based on the south of{" "}
 						<span className="underline decoration-green-300 group-hover:bg-green-300 transition ease-in  cursor-pointer dark:group-hover:text-black rounded-l-md">
 							It

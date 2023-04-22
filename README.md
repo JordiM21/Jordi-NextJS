@@ -47,11 +47,14 @@ NextJS deployment using vercel on this link
 
 - Views of the Page **(Desktop)**
 
+<div style={{display="flex"; flexWrap="wrap"}}>
+<img src="https://i.imgur.com/O4q3Bf5.png" width="500" />
+<img src="https://i.imgur.com/X1y6hEo.png" width="500" />
+</div>
+
 <div style={{display="flex"}}>
-<img src="https://i.imgur.com/O4q3Bf5.png" width="200" />
-<img src="https://i.imgur.com/X1y6hEo.png" width="200" />
-<img src="https://i.imgur.com/kWMrr3Z.png" width="200" />
-<img src="https://i.imgur.com/YSwPcpZ.png" width="200" />
+<img src="https://i.imgur.com/kWMrr3Z.png" width="500" />
+<img src="https://i.imgur.com/YSwPcpZ.png" width="500" />
 </div>
 
 

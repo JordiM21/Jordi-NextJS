@@ -1,34 +1,62 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+![Logo](https://i.imgur.com/O4q3Bf5.png)
 
-First, run the development server:
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+# Jordi's Personal Portfolio
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Page designed, structured, coded and optimized by me, Jordi Mantilla. I built this page in order to show my expertise and what im good at that's why there you can find more projects and more details about my previous work, Why don't you take a look at it?
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
 
-## Learn More
 
-To learn more about Next.js, take a look at the following resources:
+## Official Deployment
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+NextJS deployment using vercel on this link
+- [jordimantilla.vercel.app](https://www.github.com/JordiM21)
+## Author
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+- [@JordiM21](https://www.github.com/JordiM21)
 
-## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Tech Stack
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+**Client:** Javascript, React, NextJS, TailwindCSS
+
+**Server:** Node, Express, Nodemailer (Form)
+
+
+## Features
+
+- Completely responsive design mobile/desktop friendly 
+
+- Simple form implemented to storage data from people interested on my work
+
+- Dark/White Mode
+
+- Smooth animations all over the page
+
+- Used gif to show projects and no just images
+
+- Progress bar at the top to see where you're at the page
+
+
+
+
+## Screenshots
+
+- Views of the Page **(Desktop)**
+
+<div style={{display="flex"; flexWrap="wrap"}}>
+<img src="https://i.imgur.com/O4q3Bf5.png" width="500" />
+<img src="https://i.imgur.com/X1y6hEo.png" width="500" />
+</div>
+
+<div style={{display="flex"}}>
+<img src="https://i.imgur.com/kWMrr3Z.png" width="500" />
+<img src="https://i.imgur.com/YSwPcpZ.png" width="500" />
+</div>
+
+
+
+

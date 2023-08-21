@@ -2,16 +2,17 @@ import Head from "next/head";
 import { BsFillMoonFill, BsFillSunFill } from "react-icons/bs";
 import { useEffect, useState } from "react";
 import { AiOutlineDownload } from "react-icons/ai";
-import FirstPage from "./FirstPage";
-import About from "./About";
-import Projects from "./Projects";
-import Banner from "./Banner";
-import ContactMe from "./ContactMe";
-import Footer from "./Footer";
+import FirstPage from "../components/FirstPage";
+import About from "../components/About";
+import Projects from "../components/Projects";
+import Banner from "../components/Banner";
+import ContactMe from "../components/ContactMe";
+import Footer from "../components/Footer";
 import withSuspense from "../Hydration/withSuspense";
 import { motion, useScroll, useSpring } from "framer-motion";
 import Logo from "../components/Logo";
 import LogoDarkMode from "../components/LogoDarkMode";
+import Certificates from '../components/Certificates';
 
 const Home = () => {
 	//this progress can be passed to the children
@@ -90,6 +91,9 @@ const Home = () => {
 					<a id="Banner" href="#Form">
 						<Banner />
 					</a>
+				</section>
+				<section>
+					<Certificates />
 				</section>
 				<section>
 					<Projects />

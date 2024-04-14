@@ -39,7 +39,7 @@ const ContactMe = () => {
 				submitted ? (
 					<h1 className='text-center text-cyan-700 animate-pulse text-2xl'>Thank you so much! / Grazie Mille! / Muchas Gracias!</h1>
 				) : (
-					<form className="max-w-sm md:max-w-lg lg:max-w-2xl my-10 mx-20 sm:mx-auto md:w-full">
+					<form className="max-w-sm md:max-w-lg lg:max-w-lg my-10 mx-20 sm:mx-auto md:w-full">
 						<h2 className="text-4xl text-gray-800 dark:text-gray-200 text-center mb-10">
 							Let's stay in touch!
 						</h2>

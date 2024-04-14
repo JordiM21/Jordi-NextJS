@@ -4,8 +4,7 @@ import ecommercePage from "../public/ecommerce-banner.gif";
 import chatgpt from "../public/let-landing.gif";
 import crudPage from "../public/react-pokedex.gif";
 import letStudents from '../public/let-students-vid.gif'
-import movemind from '../public/movemind.gif'
-
+import poly from '../public/poly-app-screen.gif'
 import video1 from '../public/FogTL.gif'
 import { FaExternalLinkAlt } from "react-icons/fa";
 import { DiReact, DiCss3, DiFirebase } from "react-icons/di";
@@ -13,6 +12,7 @@ import { SiJavascript, SiTailwindcss, SiRedux, SiFirebase, SiTypescript } from "
 import { AiFillHtml5 } from "react-icons/ai";
 import { TbBrandNextjs } from "react-icons/tb";
 import Link from "next/link";
+import { BsType } from "react-icons/bs";
 
 
 const Projects = () => {
@@ -37,6 +37,50 @@ const Projects = () => {
 				</p>
 			</div>
 			<div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
+			<div className="basis-1/3 flex-1 relative z-0">
+					<div className="flex absolute min-w-full z-10">
+						<Link
+							href="#"
+							className="transition ease-in cursor-pointer dark:hover:bg-gray-900 flex justify-center text-white bg-teal-700 hover:bg-white hover:text-teal-700 w-1/2 h-8  place-items-center dark:bg-white dark:text-gray-900 dark:hover:text-white"
+						>
+							<a>Private Repo</a>
+							<FaExternalLinkAlt className="ml-2" />
+						</Link>
+						<Link
+							href="https://poly-let.vercel.app/"
+							target="blank"
+							className="transition ease-in cursor-pointer dark:hover:bg-gray-900 flex justify-center text-white bg-teal-700 hover:bg-white hover:text-teal-700 w-1/2 h-8  place-items-center dark:bg-white dark:text-gray-900 dark:hover:text-white"
+						>
+							<a>Go to Live</a>
+							<FaExternalLinkAlt className="ml-2" />
+						</Link>
+					</div>
+					<div className="bg-white overflow-hidden">
+						<Image
+							alt="ecommerce page"
+							className="object-cover hover:scale-110 hover: transition ease-in cursor-pointer h-64"
+							src={poly}
+						/>
+					</div>
+					<div className="text-white bg-teal-700 justify-center gap-2 rounded-b-md">
+						<div className="text-lg text-teal-200 flex justify-center items-center">
+							<p>Poly App (Saas Software)</p>
+							<DiCss3 />
+							<AiFillHtml5 />
+							<SiTypescript />
+							<SiJavascript />
+							<DiReact />
+							<SiRedux />
+							<TbBrandNextjs />
+						</div>
+						<p className="text-sm px-4 py-2 text-center">
+							<span className="text-gray-800">
+								Software as a Service App,
+							</span>{" "}
+							This is a completely functional app built from scratch that is directly connected to stripe in order to handle payments and also takes fees from the subaccounts that receive payments. Some of the features are: Funnel builder with drag and drop, publishable pages, steps to follow, display product catalog, email automations that sends mails to users when invited, when first creating agency, recurring payments, etc..
+						</p>
+					</div>
+				</div>
 				<div className="basis-1/3 flex-1 relative z-0">
 					<div className="flex absolute min-w-full z-10">
 						<Link
@@ -226,50 +270,6 @@ const Projects = () => {
 								Official Landing Page to promote the english program,
 							</span>{" "}
 							This project was one of the first i did for a private or third person, this client wanted a landing page that shows all the information and benefits of the company, they also wanted to create forms for interested people so they could get in contact with them easily.
-						</p>
-					</div>
-				</div>
-				<div className="basis-1/3 flex-1 relative z-0">
-					<div className="flex absolute min-w-full z-10">
-						<Link
-							href="https://github.com/No-Country/CN-09-16-REACTJS"
-							target="blank"
-							className="transition ease-in cursor-pointer dark:hover:bg-gray-900 flex justify-center text-white bg-teal-700 hover:bg-white hover:text-teal-700 w-1/2 h-8  place-items-center dark:bg-white dark:text-gray-900 dark:hover:text-white"
-						>
-							<a>Go to Repo</a>
-							<FaExternalLinkAlt className="ml-2" />
-						</Link>
-						<Link
-							href="https://nc-movemind-academy.vercel.app/"
-							target="blank"
-							className="transition ease-in cursor-pointer dark:hover:bg-gray-900 flex justify-center text-white bg-teal-700 hover:bg-white hover:text-teal-700 w-1/2 h-8  place-items-center dark:bg-white dark:text-gray-900 dark:hover:text-white"
-						>
-							<a>Go to Live</a>
-							<FaExternalLinkAlt className="ml-2" />
-						</Link>
-					</div>
-					<div className="bg-white overflow-hidden">
-						<Image
-							alt="ecommerce page"
-							className="object-cover hover:scale-110 hover: transition ease-in cursor-pointer h-64"
-							src={movemind}
-						/>
-					</div>
-					<div className="text-white bg-teal-700 justify-center gap-2 rounded-b-md">
-						<div className="text-lg text-teal-200 flex justify-center items-center">
-							<p>MoveMind App</p>
-							<DiCss3 />
-							<AiFillHtml5 />
-							<SiJavascript />
-							<DiReact />
-							<SiRedux />
-							<TbBrandNextjs />
-						</div>
-						<p className="text-sm px-4 py-2 text-center">
-							<span className="text-gray-800">
-								MoveMind React Native App,
-							</span>{" "}
-							This is a Prototype of the React Native App that was built by a group of talented people from the NoCountry Team for a private company that wanted a new app to teach exercises for people that wanted to keep in shape with yoga, pole dance and so on. My role was to develop friendly interfaces with React Natives according to UX/UI designs
 						</p>
 					</div>
 				</div>
